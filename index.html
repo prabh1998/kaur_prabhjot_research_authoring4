@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+<link type="text/css" rel="stylesheet" href="https://ozplayer.global.ssl.fastly.net/3.5/ozplayer-core/ozplayer.min.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://ozplayer.global.ssl.fastly.net/3.5/ozplayer-skin/highlights-yellow.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://ozplayer.global.ssl.fastly.net/3.5/transcript.css" media="all" />
+<script type="text/javascript" src="https://ozplayer.global.ssl.fastly.net/3.5/ozplayer-core/mediaelement.min.js"></script>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+   <!-- CSS links -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+
+ 
+
+    <title>Media for everyone</title>
+</head>
+<body>
+    <!-- Header starts -->
+    <header>
+        
+        <nav id="nav-menu">
+            <ul>
+                <li>
+                    <a href="#tvShows">Tv Shows</a>
+                </li>
+                <li>
+                    <a href="#movies">Movies</a>
+                </li>
+                <li>
+                    <a href="#music">Music</a>
+                </li>
+                
+            </ul>
+        </nav>
+        <h1>Media For Everyone.</h1>
+        <div id="welcomeInfo"></div>
+        <!-- <p>
+             “Media for everyone” is a research project that implements best practices to make a website fully accessible for everyone.
+        </p> -->
+    </header>
+
+    <!-- Main starts -->
+    <main id="app">
+        <!-- Tv Shows -->
+        <section id="tvShows">
+            <h1>Tv shows</h1>
+            <a href="https://www.youtube.com/results?search_query=family+matters+theme">Click here to watch Family Matters</a>
+                
+                <!-- This section is per video -->
+                <figure id="Tv-show-container" class="ozplayer-container">
+                    <div  data-responsive="Tv-show-container" data-controls="stack" class="ozplayer" id="Tv-show" data-transcript="family_matters_transcript">
+                    <video  controls="controls" preload="none">
+                    <source src="https://www.youtube.com/watch?v=ftLhANQxX0s" type="video/x-youtube"></source>
+                    <track src="video/family_matters.mp4" kind="caption" srclang="en" default="default" ></track>
+                    <div class="ozplayer-fallback"><ul><li><a href="https://www.youtube.com/watch?v=ftLhANQxX0s">Video for playback</a></li></ul></div>
+                    </video>
+                    </div>
+                   
+                    </figure>
+
+        <!-- Movies -->
+        <section id="movies">
+            <h1>Movies</h1>
+            <a href="https://youtu.be/8VEGEvDKkeM">Click here to watch full movie</a>
+
+
+           
+            <figure id="movie-container" class="ozplayer-container">
+                <div  data-responsive="movie-container" data-controls="stack" class="ozplayer" id="movie">
+                <video  controls="controls" preload="none">
+                <source src="https://youtu.be/8VEGEvDKkeM" type="video/x-youtube"></source>
+                <track src="video/mash_trailer.mp4" kind="caption" srclang="en" default="default" ></track>
+
+                <div class="ozplayer-fallback"><ul><li><a href="https://youtu.be/8VEGEvDKkeM">Video for playback</a></li></ul></div>
+                </video>
+                </div>
+                </figure>
+               
+            </figure>
+        </section>
+
+        <!-- Music -->
+
+        <figure id="old_song-container" class="ozplayer-container">
+            <h1>Music</h1>
+            
+            <a href="https://youtu.be/tov22NtCMC4">Click here to watch video</a>
+            <br><br>
+            <div  data-responsive="old_song-container" data-controls="stack" class="ozplayer" id="audio" data-transcript="audio-transcript" >
+            
+            <audio
+                controls
+                src="audio/Mariah-Carey-Vision-of-Love.mp3">
+            </audio>
+            
+            
+         </figure>
+           
+
+    </main>
+
+    <!-- footer starts -->
+    <footer>
+        <nav id="menu-footer">
+            
+        </nav>
+        
+        <nav id="social-media-footer">
+            <ul>
+                <li><a href="#">
+                    <img src="images/facebook.svg" alt="Facebook Link">
+                </a></li>
+                <li><a href="#">
+                    <img src="images/instagram.svg" alt="Intagram Link">
+                </a></li>
+                <li><a href="#">
+                    <img src="images/youtube.svg" alt="Youtube Link">
+                </a></li>
+            </ul>
+        </nav>
+        <h3>Gill Prabhjot copyright@ 2020</h3>
+    </footer>
+
+    <!-- video player scripts -->
+<!-- This section is once per page, but after all the videos -->
+<script type="text/javascript" src="https://ozplayer.global.ssl.fastly.net/3.5/ozplayer-core/ozplayer.free.js"></script>
+<script type="text/javascript" src="https://ozplayer.global.ssl.fastly.net/3.5/ozplayer-lang/en.js"></script>
+<script type="text/javascript" src="https://ozplayer.global.ssl.fastly.net/3.5/config.js"></script>
+    <!-- component scripts -->
+    <!-- <script src="js/main.js" type="module"></script> -->
+</body>
+</html>
