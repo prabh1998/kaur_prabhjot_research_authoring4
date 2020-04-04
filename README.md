@@ -15,7 +15,7 @@ Dependencies
 Installing
 
     cd to the directory of your choice
-    git clone 
+    git clone https://github.com/prabh1998/kaur_prabhjot_research_authoring4.git
   
    open it on your localhost.
 
