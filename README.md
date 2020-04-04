@@ -16,8 +16,7 @@ Installing
 
     cd to the directory of your choice
     git clone https://github.com/prabh1998/kaur_prabhjot_research_authoring4.git
-  
-   open it on your localhost.
+    open it on your localhost.
 
 Author
 Prabhjot Kaur (0866698)
@@ -30,7 +29,7 @@ License
 
 Acknowledgments
 
-   Ozplayer
+    Ozplayer
     awesome-readme
     PurpleBooth
     README Formatting
